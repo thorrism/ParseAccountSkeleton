@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Raised Button dimens -->
+    <dimen name="raised_button_padding">16dp</dimen>
+    <dimen name="raised_button_elevation">4dp</dimen>
+    <dimen name="raised_button_corner_radius">4dp</dimen>
+    <dimen name="raised_button_width_medium">128dp</dimen>
+    <dimen name="raised_button_width_large">164dp</dimen>
+
+    <!-- TextViewShadow dimens -->
+    <dimen name="textSizeSmall">16sp</dimen>
+    <dimen name="textSizeMedium">25sp</dimen>
+    <dimen name="textSizeLarge">32sp</dimen>
+    <dimen name="textShadowSmall">2dp</dimen>
+    <dimen name="textShadowMedium">4dp</dimen>
+    <dimen name="textShadowLarge">6dp</dimen>
+
+    <!-- MaterialDialog dimens -->
+    <dimen name="dialog_title_padding">20dp</dimen>
+    <dimen name="dialog_border_padding">24sp</dimen>
+    <dimen name="dialog_button_padding">8dp</dimen>
+    <dimen name="dialog_button_layout_height">52dp</dimen>
+    <dimen name="dialog_text_size">16sp</dimen>
+
+    <!--LabelView dimens -->
+    <dimen name="text_padding_left">8dp</dimen>
+    <dimen name="label_line_padding">4dp</dimen>
+    <dimen name="label_line_thickness">1dp</dimen>
+
+</resources>

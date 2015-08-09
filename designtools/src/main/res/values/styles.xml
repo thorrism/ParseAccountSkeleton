@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="DialogTextStyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dialog_button_color</item>
+    </style>
+
+    <style name="RaisedButtonStyle">
+        <item name="contentColor">#fff</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="raisedElevation">2dp</item>
+        <item name="innerPadding">@dimen/raised_button_padding</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ParseApp</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <!--Titles-->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start_screen">StartScreenActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+    <!-- Parse Skeleton Strings -->
+    <string name="login_btn">Log in</string>
+    <string name="signup_btn">Sign up</string>
+    <string name="login_title">Log in</string>
+    <string name="signup_title">Sign up</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="password_confirm_hint">Confirm Password</string>
+    <string name="drawer_name">John Smith</string>
+    <string name="drawer_email">jsmith@gmail.com</string>
+
+    <!-- Validator strings -->
+    <string name="email_error_message">Invalid email input.</string>
+    <string name="username_error_message_invalid">Invalid username input.</string>
+    <string name="username_error_message_exists">Username does not exist!</string>
+    <string name="password_error_message_exists">This password is incorrect!</string>
+    <string name="password_error_message_invalid">Invalid password input.</string>
+    <string name="password_error_message_match">This password does not match!</string>
+    <string name="title_activity_landing">LandingActivity</string>
+
+</resources>

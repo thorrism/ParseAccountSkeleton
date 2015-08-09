@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Parse Skeleton dimens -->
+    <dimen name="title_margin_top">128dp</dimen>
+    <dimen name="title_margin_top_med">32dp</dimen>
+    <dimen name="button_margin_bottom">128dp</dimen>
+    <dimen name="title_font_size">40sp</dimen>
+
+    <!--Drawer Navigation Dimens -->
+    <dimen name="nav_header_height">196dp</dimen>
+
+</resources>

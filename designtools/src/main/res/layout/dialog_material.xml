@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bodyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dialog_border_padding"
+        android:paddingRight="@dimen/dialog_border_padding"
+        android:paddingBottom="@dimen/dialog_border_padding"
+        android:paddingTop="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/dialog_text_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_button_layout_height">
+
+        <com.thorrism.designtools.views.FlatButton
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dialog_button_padding"
+            android:layout_marginEnd="@dimen/dialog_button_padding"
+            android:text="@string/submit_text"
+            style="@style/DialogTextStyle" />
+
+        <com.thorrism.designtools.views.FlatButton
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/submit_btn"
+            android:layout_toStartOf="@+id/submit_btn"
+            android:layout_centerVertical="true"
+            android:text="@string/cancel_text"
+            style="@style/DialogTextStyle" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_green">#009688</color>
+    <color name="material_blue">#03A9F4</color>
+    <color name="material_blue_dark">#0277BD</color>
+    <color name="material_green_light">#4DB6AC</color>
+
+    <!-- Drawer Layout -->
+    <color name="nav_header_color">#5A5F62</color>
+</resources>

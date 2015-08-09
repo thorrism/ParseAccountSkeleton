@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thorrism" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".parse.skeleton.ParseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".parse.skeleton.activities.ParseSplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/AppThemeNoBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".parse.skeleton.activities.ParseStartActivity"
+            android:label="@string/title_activity_start_screen"
+            android:theme="@style/AppThemeNoBar" >
+        </activity>
+        <activity
+            android:name=".parse.skeleton.activities.ParseLoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".parse.skeleton.activities.ParseStartActivity"
+            android:theme="@style/AppThemeBlue"
+            android:windowSoftInputMode="adjustResize" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thorrism.parse.skeleton.activities.ParseStartActivity" />
+        </activity>
+        <activity
+            android:name=".parse.skeleton.activities.ParseSignupActivity"
+            android:label="@string/title_activity_signup"
+            android:parentActivityName=".parse.skeleton.activities.ParseStartActivity"
+            android:theme="@style/AppThemeBlue"
+            android:windowSoftInputMode="adjustResize" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thorrism.parse.skeleton.activities.ParseStartActivity" />
+        </activity>
+        <activity
+            android:name=".parse.skeleton.LandingActivity"
+            android:label="@string/title_activity_landing" >
+        </activity>
+    </application>
+
+</manifest>

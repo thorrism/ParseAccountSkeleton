@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. Used with self-defined action bar. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/android:white</item>
+        <item name="android:textColor">@color/android:black</item>
+    </style>
+
+    <!-- Theme for activities with an action bar -->
+    <style name="AppThemeBlue"  parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/material_blue</item>
+        <item name="colorPrimaryDark">@color/material_blue_dark</item>
+        <item name="colorAccent">@color/material_green</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/material_blue</item>
+        <item name="android:textColor">@color/android:white</item>
+    </style>
+
+    <!-- Theme used for no self-defined action bar -->
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/material_blue</item>
+        <item name="android:textColor">@color/android:white</item>
+    </style>
+
+    <!-- TextView themes -->
+    <style name="TitleTextTheme" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/title_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/title_margin_top</item>
+    </style>
+
+    <style name="TitleTextTheme2" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/title_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">?attr/actionBarSize</item>
+    </style>
+
+    <!--Raised Button Themes -->
+    <style name="RaisedButtonTheme" parent="RaisedButtonStyle">
+        <item name="contentColor">#fff</item>
+        <item name="backgroundColor">@color/material_green</item>
+    </style>
+
+
+</resources>
